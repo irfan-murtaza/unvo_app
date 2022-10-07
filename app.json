@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "UNVO_APP",
+    "slug": "UNVO_APP",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashxd.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.app.unvo",
+      "buildNumber": "4",
+      "infoPlist": {
+        "NSCameraUsageDescription": "UNVO app would like to access the camera so that you can post pictures or change profile picture.",
+        "NSPhotoLibraryUsageDescription": "UNVO app would like to access  photo library permission to upload picture from gallery"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 33,
+            "targetSdkVersion": 33,
+            "buildToolsVersion": "31.0.0"
+          },
+          "ios": {
+            "deploymentTarget": "13.0"
+          }
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.irfan12333.UNVO_APP"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "21d5723f-bfee-4b79-bd80-fd2d0b533446"
+      }
+    }
+  }
+}
